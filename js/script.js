@@ -17,14 +17,14 @@ $(function(){
 		/*=========================================================================
 			Portfolio Grid
 		=========================================================================*/
-		var grid = $('#portfolio-grid');
+		const grid = $('#portfolio-grid');
 		grid.shuffle({
 			itemSelector: '.item'
 		});
 		
 		$('#portfolio-filters > ul > li > a').on('click', function (e) {
 			e.preventDefault();
-			var groupName = $(this).attr('data-group');
+			const groupName = $(this).attr('data-group');
 			$('#portfolio-filters > ul > li > a').removeClass('active');
 			$(this).addClass('active');
 			grid.shuffle('shuffle', groupName );
@@ -47,18 +47,21 @@ $(function(){
 		Links Navigation System
 	=========================================================================*/
 	$('.front-person-links > ul > li > a[data-section]').on('click', function(e){
-		e.preventDefault();
-		var section = $('#' + $(this).data('section'));
+        e.preventDefault();
+        const section = $(this).data('section');
+		const sectionElem = $('#' + section);
 		
-		if( section.size() != 0 ){
+		if( sectionElem.size() != 0 ){
 			
 			$('body').addClass('section-show');
-			
-			section.addClass('active');
+			const newUrl = window.location.protocol + '//' + window.location.host + '/' + section;
+            alert(newUrl);
+            sectionElem.addClass('active');
 		
 		}
 		
-	});
+    });
+
 	$('.close-btn').on('click', function(){
 		$('body').removeClass('section-show');
 		$('section.active').removeClass('active');
@@ -79,7 +82,7 @@ $(function(){
 		Skill Bar's Percent Initialization from attribute data-percent
 	=========================================================================*/
 	$('.skill-bar').each(function(){
-		var $this = $(this),
+		const $this = $(this),
 			percent = parseInt( $this.data('percent'), 10 );
 		
 		$this.find('.bar').css('width', percent + '%');
@@ -92,7 +95,7 @@ $(function(){
 		Contact Form
 	=========================================================================*/
 	function isJSON(val){
-		var str = val.replace(/\\./g, '@').replace(/"[^"\\\n\r]*"/g, '');
+		const str = val.replace(/\\./g, '@').replace(/"[^"\\\n\r]*"/g, '');
 		return (/^[,:{}\[\]0-9.\-+Eaeflnr-u \n\r\t]*$/).test(str);
 	}
 	$('#contact-form').validator().on('submit', function (e) {
@@ -101,7 +104,7 @@ $(function(){
 			// If there is no any error in validation then send the message
 			
 			e.preventDefault();
-			var $this = $(this),
+			const $this = $(this),
 				
 				//You can edit alerts here
 				alerts = {
