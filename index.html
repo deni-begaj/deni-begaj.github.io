@@ -2340,7 +2340,7 @@
 						<div class='row'>
 							<div class='col-md-8 col-md-offset-2'>
 								
-								<form id='contact-form' class='contact-form' onsubmit="onContactFormSubmitted()" method='post' data-toggle='validator'>
+								<form id='contact-form' class='contact-form' onsubmit="event.preventDefault(); onContactFormSubmitted()" data-toggle='validator'>
 									
 									<div id='contact-form-result'></div>
 									
@@ -2352,7 +2352,7 @@
 										<div class='col-md-6'>
 											
 											<div class='form-group'>
-												<input type='text' class='form-control' placeholder='Full Name' required>
+												<input type='text' class='form-control' id="name" placeholder='Full Name' required>
 												
 												<div class='help-block with-errors'></div>
 											</div>
@@ -2361,7 +2361,7 @@
 										
 										<div class='col-md-6'>
 											<div class='form-group'>
-												<input type='email' class='form-control' placeholder='Contact Email' required>
+												<input type='email' class='form-control' id="email" placeholder='Contact Email' required>
 												
 												<div class='help-block with-errors'></div>
 							
@@ -2376,7 +2376,9 @@
 											
 											<div class='form-group'>
 
-                                                <select name="prefix" class='form-control' placeholder='Prefix' id="prefix" required></select>
+                                                <select name="prefix" class='form-control' id="prefix" placeholder='Prefix' id="prefix" required>
+                                                    <option value="0" disabled selected>Choose Prefix</option>
+                                                </select>
 
 												<div class='help-block with-errors'></div>
 											</div>
@@ -2385,7 +2387,7 @@
 
 										<div class='col-md-6'>
 											<div class='form-group'>
-												<input type='text' class='form-control' placeholder='Phone to reach you' required>
+												<input type='number' class='form-control' id="phone" placeholder='Phone number' required>
 												<div class='help-block with-errors'></div>
 											</div>
 										</div>
@@ -2400,14 +2402,16 @@
 										<div class='col-md-12'>
                                             
                                             <div class='form-group'>
-                                                <textarea rows='5' class='form-control' placeholder='Message' required></textarea>
+                                                <textarea rows='5' class='form-control' id="message" placeholder='Message' required></textarea>
                                                 <div class='help-block with-errors'></div>
                                             </div>
 
                                         </div>
                                     </div>
 
-                                    
+                                    <h4 id="error-message" style="height: 20px; color: darkred;"></h4>
+                                    <h4 id="success-message" style="height: 20px; color: green;"></h4>
+                                    <br>
 									
 									<div class='form-group text-center'>
 										<button type='submit' class='theme-btn'>Send Message</button>
