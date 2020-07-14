@@ -2340,16 +2340,19 @@
 						<div class='row'>
 							<div class='col-md-8 col-md-offset-2'>
 								
-								<form id='contact-form' class='contact-form' action='mail.php' method='post' data-toggle='validator'>
+								<form id='contact-form' class='contact-form' onsubmit="onContactFormSubmitted()" method='post' data-toggle='validator'>
 									
 									<div id='contact-form-result'></div>
 									
 									<div class='row'>
+
+                                        <h4 style="margin-left: 14px;">Let us know who you are ?</h4>
+                                        <hr>
 										
 										<div class='col-md-6'>
 											
 											<div class='form-group'>
-												<input type='text' class='form-control' placeholder='Name' required>
+												<input type='text' class='form-control' placeholder='Full Name' required>
 												
 												<div class='help-block with-errors'></div>
 											</div>
@@ -2358,7 +2361,7 @@
 										
 										<div class='col-md-6'>
 											<div class='form-group'>
-												<input type='email' class='form-control' placeholder='Email' required>
+												<input type='email' class='form-control' placeholder='Contact Email' required>
 												
 												<div class='help-block with-errors'></div>
 							
@@ -2368,29 +2371,43 @@
 									</div>
 									
 									<div class='row'>
-										
+
 										<div class='col-md-6'>
+											
 											<div class='form-group'>
-												<input type='text' class='form-control' placeholder='Phone' required>
+
+                                                <select name="prefix" class='form-control' placeholder='Prefix' id="prefix" required></select>
+
 												<div class='help-block with-errors'></div>
-												
 											</div>
-										</div>
 										
+										</div>
+
 										<div class='col-md-6'>
 											<div class='form-group'>
-												<input type='text' class='form-control' placeholder='Website' required>
+												<input type='text' class='form-control' placeholder='Phone to reach you' required>
 												<div class='help-block with-errors'></div>
-												
 											</div>
 										</div>
 										
 									</div>
-									
-									<div class='form-group'>
-										<textarea rows='5' class='form-control' placeholder='Message' required></textarea>
-										<div class='help-block with-errors'></div>
-									</div>
+
+									<div class='row'>
+
+                                        <h4 style="margin-left: 14px;">Explain your inquiry in few sentences ?</h4>
+                                        <hr>
+
+										<div class='col-md-12'>
+                                            
+                                            <div class='form-group'>
+                                                <textarea rows='5' class='form-control' placeholder='Message' required></textarea>
+                                                <div class='help-block with-errors'></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    
 									
 									<div class='form-group text-center'>
 										<button type='submit' class='theme-btn'>Send Message</button>
@@ -2471,7 +2488,9 @@
 		
 		<!--=============================================================================
 			JavaScript Files
-		===============================================================================-->
+        ===============================================================================-->
+
+		<script src='js/country-codes.js'></script>
 		<script src='js/jquery.min.js'></script>
 		<script src='js/jquery.stellar.min.js'></script>
 		<script src='js/modernizr.js'></script>
