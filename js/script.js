@@ -1,3 +1,18 @@
+function showSection(section) {
+    const sectionElem = $('#' + section);
+		
+    if( sectionElem.size() != 0 ){
+        
+        $('body').addClass('section-show');
+        // const newUrl = window.location.protocol + '//' + window.location.host + '/' + section;
+        // window.location.href = newUrl;
+        // alert(newUrl);
+        sectionElem.addClass('active');
+    
+    }
+}
+
+
 $(function(){
 	"use strict";
 
@@ -40,7 +55,14 @@ $(function(){
 		});
 	
 	});
-	
+
+
+
+    const hash = window.location.hash;
+    if (hash !== '') {
+        const section = hash.substring(1);
+        showSection(section);
+    }
 	
 	
 	/*=========================================================================
@@ -49,17 +71,7 @@ $(function(){
 	$('.front-person-links > ul > li > a[data-section]').on('click', function(e){
         // e.preventDefault();
         const section = $(this).data('section');
-		const sectionElem = $('#' + section);
-		
-		if( sectionElem.size() != 0 ){
-			
-			$('body').addClass('section-show');
-            // const newUrl = window.location.protocol + '//' + window.location.host + '/' + section;
-            // window.location.href = newUrl;
-            // alert(newUrl);
-            sectionElem.addClass('active');
-		
-		}
+		showSection(section);
 		
     });
 
