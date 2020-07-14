@@ -1371,7 +1371,7 @@ body.section-show .transition-mask:before{
 	margin-bottom:50px;
 }
 .post-more .more-link,
-body .symp-btn{
+body .theme-btn{
 	display:inline-block;
 	*display:inline;
 	*zoom:1;
@@ -1385,18 +1385,18 @@ body .symp-btn{
 	text-decoration:none !important;
 }
 .post-more .more-link:hover,
-.symp-btn:hover{
+.theme-btn:hover{
 	background:#B7A389;
 	color:#FFF;
 }
-.symp-btn.link-btn{
+.theme-btn.link-btn{
 	background:transparent;
 	color:#999;
 }
-.symp-btn.link-btn > i{
+.theme-btn.link-btn > i{
 	margin-right:8px;
 }
-.symp-btn.link-btn:hover{
+.theme-btn.link-btn:hover{
 	color:#333;
 	background:transparent;
 }
