@@ -77,7 +77,8 @@ $(function(){
 
 	$('.close-btn').on('click', function(){
 		$('body').removeClass('section-show');
-		$('section.active').removeClass('active');
+        $('section.active').removeClass('active');
+        window.location.hash = '';
 	});
 	
 	
