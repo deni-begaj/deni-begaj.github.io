@@ -691,7 +691,7 @@ body.section-show .transition-mask:before{
 
 .front-section{
 	padding-top:60px;
-	padding-bottom:200px;
+	padding-bottom:50px;
 	position:relative;
 }
 .front-heading{
@@ -725,7 +725,7 @@ body.section-show .transition-mask:before{
 	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
 	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
 	transition:height .5s .3s ease, transform .5s .8s ease;
-	margin:200px auto;
+	margin:50px auto;
 	margin-bottom:0;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
