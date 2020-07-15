@@ -137,7 +137,7 @@ var countryCodes =
         "code": "BR"
     },
     {
-        "name": "British Indian Ocean Territory",
+        "name": "British Indian Ocean",
         "dial_code": "+246",
         "code": "IO"
     },
@@ -827,7 +827,7 @@ var countryCodes =
         "code": "ZA"
     },
     {
-        "name": "South Georgia and the South Sandwich Islands",
+        "name": "South Georgia and SSI",
         "dial_code": "+500",
         "code": "GS"
     },
@@ -992,7 +992,7 @@ var countryCodes =
         "code": "AQ"
     },
     {
-        "name": "Bolivia, Plurinational State of",
+        "name": "Bolivia",
         "dial_code": "+591",
         "code": "BO"
     },
@@ -1007,7 +1007,7 @@ var countryCodes =
         "code": "CC"
     },
     {
-        "name": "Congo, The Democratic Republic of the",
+        "name": "Congo DR",
         "dial_code": "+243",
         "code": "CD"
     },
@@ -1037,7 +1037,7 @@ var countryCodes =
         "code": "HK"
     },
     {
-        "name": "Iran, Islamic Republic of",
+        "name": "Iran",
         "dial_code": "+98",
         "code": "IR"
     },
@@ -1052,17 +1052,17 @@ var countryCodes =
         "code": "JE"
     },
     {
-        "name": "Korea, Democratic People's Republic of",
+        "name": "North Korea",
         "dial_code": "+850",
         "code": "KP"
     },
     {
-        "name": "Korea, Republic of",
+        "name": "South Korea",
         "dial_code": "+82",
         "code": "KR"
     },
     {
-        "name": "Lao People's Democratic Republic",
+        "name": "Lao",
         "dial_code": "+856",
         "code": "LA"
     },
@@ -1077,17 +1077,17 @@ var countryCodes =
         "code": "MO"
     },
     {
-        "name": "Macedonia, The Former Yugoslav Republic of",
+        "name": "North Macedoniaf",
         "dial_code": "+389",
         "code": "MK"
     },
     {
-        "name": "Micronesia, Federated States of",
+        "name": "Micronesia",
         "dial_code": "+691",
         "code": "FM"
     },
     {
-        "name": "Moldova, Republic of",
+        "name": "Moldova",
         "dial_code": "+373",
         "code": "MD"
     },
@@ -1097,7 +1097,7 @@ var countryCodes =
         "code": "MZ"
     },
     {
-        "name": "Palestinian Territory, Occupied",
+        "name": "Palestinian Territory",
         "dial_code": "+970",
         "code": "PS"
     },
@@ -1122,7 +1122,7 @@ var countryCodes =
         "code": "BL"
     },
     {
-        "name": "Saint Helena, Ascension and Tristan Da Cunha",
+        "name": "Saint Helena, Asc and TDH",
         "dial_code": "+290",
         "code": "SH"
     },
@@ -1147,7 +1147,7 @@ var countryCodes =
         "code": "PM"
     },
     {
-        "name": "Saint Vincent and the Grenadines",
+        "name": "Saint Vincent and G",
         "dial_code": "+1 784",
         "code": "VC"
     },
@@ -1177,7 +1177,7 @@ var countryCodes =
         "code": "TW"
     },
     {
-        "name": "Tanzania, United Republic of",
+        "name": "Tanzania",
         "dial_code": "+255",
         "code": "TZ"
     },
@@ -1187,7 +1187,7 @@ var countryCodes =
         "code": "TL"
     },
     {
-        "name": "Venezuela, Bolivarian Republic of",
+        "name": "Venezuela",
         "dial_code": "+58",
         "code": "VE"
     },
