@@ -6,7 +6,7 @@
 	02- Preloader
 	03- Front Section
 	04- About Section
-	05- Resume Section
+	05- CV Section
 	06- Services Section
 	07- Blog Section
 	08- Portfolio Section
@@ -1076,7 +1076,7 @@ body.section-show .transition-mask:before{
 	opacity:1;
 }
 /*=======================================================================
-	Resume Section
+	cv Section
 =======================================================================*/
 .timeline-block{
 	padding-bottom:100px;
