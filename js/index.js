@@ -72,13 +72,13 @@ const myEmail = 'denibegaj98@gmail.com';
 const website = 'deni-begaj.github.io';
 updateHTMLElement('my-website', website);
 
-const certificates = 5;
+const certificates = 11;
 updateHTMLElement('my-certificates', certificates);
-const customers = 13;
+const customers = 1000;
 updateHTMLElement('my-customers', customers);
-const projects = 15;
+const projects = 35;
 updateHTMLElement('my-projects', projects);
-const bugsSolved = 13;
+const bugsSolved = 999;
 updateHTMLElement('my-bugsSolved', bugsSolved);
 
 addCountryCodesToSelect();
