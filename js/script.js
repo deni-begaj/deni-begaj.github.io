@@ -45,7 +45,7 @@ $(function(){
 			grid.shuffle('shuffle', groupName );
 		});
 		
-		$('a.image-link').magnificPopup({
+		$('image-link').magnificPopup({
 			type: 'image',
 			removalDelay: 300,
 			mainClass: 'mfp-fade',
