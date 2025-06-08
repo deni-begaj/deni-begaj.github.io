@@ -1643,6 +1643,7 @@ body .theme-btn{
 	color:#FFF;
 }
 .theme-btn.link-btn{
+	border: 1px solid #ccc8c8;
 	background:transparent;
 	color:#999;
 }
