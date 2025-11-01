@@ -1936,7 +1936,6 @@ body .theme-btn {
 	font-size: 20px;
 	color: #333;
 	text-decoration: none;
-
 }
 
 .search-box>.search-btn:hover {
@@ -2418,11 +2417,9 @@ body .theme-btn {
 	.portfolio-card {
 		min-height: 460px;
 	}
-	
 	.portfolio-image {
 		height: 220px;
 	}
-	
 	.portfolio-content {
 		padding: 20px;
 	}
@@ -2432,46 +2429,35 @@ body .theme-btn {
 	.portfolio-card {
 		min-height: 440px;
 	}
-	
 	.portfolio-image {
 		height: 200px;
 	}
-	
 	.portfolio-content {
 		padding: 15px;
 	}
-	
 	.portfolio-content h4 {
 		font-size: 18px;
 	}
-	
 	.portfolio-content p {
 		font-size: 13px;
 	}
-	
 	.portfolio-links a {
 		width: 45px;
 		height: 45px;
 	}
-	
 	.portfolio-links a i {
 		font-size: 18px;
 	}
-	
-	/* Modal responsive styles */
 	.project-detail-content {
 		width: 95%;
 		max-width: 95%;
 	}
-	
 	.project-detail-inner {
 		padding: 25px;
 	}
-	
 	.project-detail-header h2 {
 		font-size: 24px;
 	}
-	
 	.gallery-item {
 		width: 100px;
 		height: 70px;
@@ -2624,7 +2610,6 @@ body .theme-btn {
 	line-height: 1.9em;
 }
 
-
 /*=======================================================================
 	Single Post Page
 =======================================================================*/
@@ -2641,10 +2626,6 @@ body .theme-btn {
 	line-height: 2em;
 	text-align: justify;
 }
-
-
-
-
 
 /*=======================================================================
 	Responsive CSS
@@ -2774,7 +2755,6 @@ body .theme-btn {
 }
 
 @media (max-width:768px) {
-
 	.front-person-links {
 		margin-top: 65px;
 	}
