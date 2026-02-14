@@ -198,7 +198,7 @@ const portfolioProjects = [
   {
     title: "Rental.IO",
     description:
-      "Rental.IO is a platform for managing short-term rentals of properties. It allows property managers to sync the reservations from Booking/Airbnb platforms and manage their reservation easily, offering automated multi-language check-in messages, door locks management, data storage, todo items tracking and more.",
+      "Rental.IO is a platform for managing short-term property rentals. It allows property managers to sync reservations from Booking/Airbnb platforms and manage them easily, offering automated multi-language check-in messages, door locks management, todos and more.",
     image: "img/portfolio/rental.io/dashboard.png",
     screenshots: [
       "img/portfolio/rental.io/dashboard.png",
@@ -296,15 +296,6 @@ const portfolioProjects = [
     screenshots: ["img/portfolio/socket-chat/1.png"],
     tech: ["React", "Express.JS", "ollama", "MongoDB"],
     categories: ["web", "mobile"],
-  },
-  {
-    title: "SQL Server User Schema",
-    description:
-      "Comprehensive database schema design for user management system with role-based access control and profile management.",
-    image: "img/portfolio/db/2.png",
-    screenshots: ["img/portfolio/db/2.png"],
-    tech: ["SQL Server", "Database Design", "RBAC"],
-    categories: ["backend", "architecture"],
   },
   {
     title: "FEUT Faculty Website",
