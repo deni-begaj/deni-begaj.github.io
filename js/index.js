@@ -128,7 +128,16 @@ function escapeHtml(text) {
     return String(text).replace(/[&<>"']/g, m => map[m]);
 }
 
-const portfolioProjects = [{
+const portfolioProjects = [
+    {
+    title: 'Rental.IO',
+    description: 'Rental.IO is a platform for managing short-term rentals of properties. It allows property managers to sync the reservations from Booking/Airbnb platforms and manage their reservation easily, offering automated multi-language check-in messages, door locks management, data storage, todo items tracking and more.',
+    image: 'img/portfolio/rental.io/dashboard.png',
+    screenshots: ['img/portfolio/rental.io/dashboard.png', 'img/portfolio/rental.io/bookings.png', 'img/portfolio/rental.io/add-booking.png', 'img/portfolio/rental.io/door-locks.png', 'img/portfolio/rental.io/todos.png', 'img/portfolio/rental.io/add-todo.png', 'img/portfolio/rental.io/pwa-install.png'],
+    tech: ['React', 'Next.js', 'Tailwind CSS', 'Material UI'],
+    categories: ['web', 'desktop', 'mobile']
+},
+{
     title: 'Novalto Financial Platform',
     description: 'Novalto is a financial platform that provides a data aggregation and analysis service for companies in Albania for different fiscal years. Such reports are used by banks and new corporations wanting to enter the local market.',
     image: 'img/portfolio/novalto/dashboard.png',
