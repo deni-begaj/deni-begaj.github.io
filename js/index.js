@@ -213,7 +213,7 @@ const portfolioProjects = [
     categories: ["web", "desktop", "mobile"],
   },
   {
-    title: "Novalto Financial Platform",
+    title: "Novalto Financials",
     description:
       "Novalto is a financial platform that provides a data aggregation and analysis service for companies in Albania for different fiscal years. Such reports are used by banks and new corporations wanting to enter the local market.",
     image: "img/portfolio/novalto/dashboard.png",
@@ -239,7 +239,7 @@ const portfolioProjects = [
     categories: ["web", "desktop", "mobile"],
   },
   {
-    title: "Albanian Post Mobile App",
+    title: "Albanian Post Mobile",
     description:
       "Cross-platform mobile application for Albanian Post services. Features include package tracking, postal code lookup, office locator, and tariff calculator. Interactive postal code and tariff lookup system integrated into the Albanian Post mobile app with intuitive search and filtering capabilities.",
     image: "img/portfolio/albpost/4.png",
@@ -255,9 +255,9 @@ const portfolioProjects = [
     categories: ["mobile"],
   },
   {
-    title: "Meeting Scheduler App",
+    title: "Meeting Agent",
     description:
-      "Modern, responsive website for a tech startup featuring services showcase, project portfolio, and contact sections with optimized user experience.",
+      "Meeting Scheduler is a platform for scheduling meetings with clients. It allows users to schedule meetings with clients, view meeting details, and manage meeting invitations.",
     image: "img/portfolio/meeting-agent/3.png",
     screenshots: ["img/portfolio/meeting-agent/3.png"],
     url: "https://example.com",
@@ -289,12 +289,12 @@ const portfolioProjects = [
     categories: ["web", "mobile"],
   },
   {
-    title: "Socket Chat from Scratch",
+    title: "AI Chat Interface",
     description:
-      "Real-time chat application built from scratch using WebSockets. Features include private messaging, group chats, and live notifications.",
+      "AI Chat Interface is a platform for chatting with AI. It allows users to chat with AI, view chat history, and manage chat settings.",
     image: "img/portfolio/socket-chat/1.png",
     screenshots: ["img/portfolio/socket-chat/1.png"],
-    tech: ["WebSockets", "Node.js", "Express.JS", "Socket.IO", "MongoDB"],
+    tech: ["React", "Express.JS", "ollama", "MongoDB"],
     categories: ["web", "mobile"],
   },
   {
@@ -307,7 +307,7 @@ const portfolioProjects = [
     categories: ["backend", "architecture"],
   },
   {
-    title: "University of Tirana, Faculty of Economics Website",
+    title: "FEUT Faculty Website",
     description:
       "Comprehensive website for the Faculty of Economy featuring academic programs, research information, student resources, and library access.",
     image: "img/portfolio/feut/9.png",
@@ -317,9 +317,9 @@ const portfolioProjects = [
     categories: ["web"],
   },
   {
-    title: "Labgom Company Landing Page",
+    title: "Labgom Landing Page",
     description:
-      "Landing page for Labgom company featuring services, projects, and contact information.",
+      "Landing page for Labgom IT featuring services, projects, and contact information.",
     image: "img/portfolio/labgom/home.png",
     screenshots: [
       "img/portfolio/labgom/home.png",
@@ -331,7 +331,7 @@ const portfolioProjects = [
     categories: ["web", "mobile", "landing page"],
   },
   {
-    title: "Luigi's Italian Restaurant",
+    title: "Luigi's Landing Page",
     description:
       "Landing page for Luigi's Italian Restaurant featuring menu, about us, contact information. This page is mobile friendly and also printable as a pdf.",
     image: "img/portfolio/luigis/1.png",
