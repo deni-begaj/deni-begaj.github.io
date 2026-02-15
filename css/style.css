@@ -689,6 +689,14 @@ body.section-show .section.active {
   margin: 0 10px;
 }
 
+.mt-2 {
+  margin-top: 20px;
+} 
+
+.mt-4 {
+  margin-top: 40px;
+} 
+
 .mb-xs-1 {
 	@media screen and (max-width: 768px) {
 		margin-bottom: 10px;
@@ -1388,7 +1396,7 @@ body.section-show .transition-mask:before {
 
 .timeline-block .timeline {
   padding-bottom: 90px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .timeline {
