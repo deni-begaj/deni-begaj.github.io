@@ -38,9 +38,9 @@ function onContactFormSubmitted() {
     "Visitor Name: " +
     name +
     "\n" +
-    (prefix && phone ? "Visitor Phone:" +
-    encodeURI(prefix + phone) +
-    "\n" : "") +
+    (prefix && phone
+      ? "Visitor Phone:" + encodeURI(prefix + phone) + "\n"
+      : "") +
     "Inquiry Date: " +
     nowDate;
   const mailToString =
