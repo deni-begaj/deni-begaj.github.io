@@ -2838,11 +2838,11 @@ body .theme-btn {
   }
 
   .front-section {
-    padding-bottom: 110px;
+    padding-bottom: 20px;
   }
 
   .front-heading > h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .front-person-img {
@@ -2917,7 +2917,7 @@ body .theme-btn {
 
   .front-person-links > ul > li > a {
     text-align: center;
-    padding: 22px 48px;
+    padding: 10px 48px;
     display: block;
     font-size: 22px;
     letter-spacing: 2px;
@@ -2925,7 +2925,7 @@ body .theme-btn {
   }
 
   .front-person-titles {
-    margin-top: 125px;
+    margin-top: 60px;
     transform: none;
     text-align: center;
     width: 80%;
@@ -2947,13 +2947,13 @@ body .theme-btn {
   }
 
   .front-heading {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .front-person-links {
-    margin-top: 65px;
+    margin-top: 35px;
   }
 
   .front-person-img {
