@@ -75,6 +75,12 @@ $(function(){
 		
     });
 
+	$('#theme-btn-contact').on('click', function(e){
+		// e.preventDefault();
+		const section = $(this).data('section');
+		showSection(section);
+	});
+
 	$('.close-btn').on('click', function(){
 		$('body').removeClass('section-show');
         $('section.active').removeClass('active');

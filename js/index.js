@@ -22,13 +22,6 @@ function onContactFormSubmitted() {
   }
   const prefix = getHTMLElement("prefix").value;
   const phone = getHTMLElement("phone").value;
-  if (prefix === null || prefix === undefined || prefix === "") {
-    getHTMLElement("error-message").innerText = "Your prefix is required";
-    return;
-  } else if (phone === null || phone === undefined || phone === "") {
-    getHTMLElement("error-message").innerText = "Your phone is required";
-    return;
-  }
   const subject = "Deni-Begaj Website: Request for discussion from " + name;
   const message = getHTMLElement("message").value;
   if (message === null || message === undefined || message === "") {
@@ -45,9 +38,9 @@ function onContactFormSubmitted() {
     "Visitor Name: " +
     name +
     "\n" +
-    "Visitor Phone:" +
+    (prefix && phone ? "Visitor Phone:" +
     encodeURI(prefix + phone) +
-    "\n" +
+    "\n" : "") +
     "Inquiry Date: " +
     nowDate;
   const mailToString =
@@ -83,11 +76,11 @@ updateHTMLElement("my-age", years);
 const myEmail = "denibegaj98@gmail.com";
 const website = "deni-begaj.github.io";
 updateHTMLElement("my-website", website);
-const certificates = 11;
+const certificates = 12;
 updateHTMLElement("my-certificates", certificates);
-const customers = 1000;
+const customers = 37;
 updateHTMLElement("my-customers", customers);
-const projects = 35;
+const projects = 55;
 updateHTMLElement("my-projects", projects);
 const bugsSolved = 999;
 updateHTMLElement("my-bugsSolved", bugsSolved);
