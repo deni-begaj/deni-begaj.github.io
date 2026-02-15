@@ -1000,6 +1000,8 @@ body.section-show .transition-mask:before {
   -ms-transform: rotate(-45deg) translateY(40px);
   -o-transform: rotate(-45deg) translateY(40px);
   transform: rotate(-45deg) translateY(40px);
+  position: relative;
+  bottom: 45px;
 }
 
 .front-person-titles {
@@ -2937,7 +2939,7 @@ body .theme-btn {
     position: relative;
     transform: none !important;
     display: block;
-    margin: 25px 0;
+    margin: 15px 0;
     letter-spacing: 10px;
     font-size: 16px;
     text-transform: uppercase;
@@ -2976,7 +2978,6 @@ body .theme-btn {
     @media screen and (max-width: 538px) {
       bottom: 16px !important;
     }
-    bottom: 0;
     left: -40px;
   }
 }
