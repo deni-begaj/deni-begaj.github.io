@@ -2961,6 +2961,9 @@ body .theme-btn {
     padding-top: 65%;
     height: 0;
     margin-top: 120px;
+    @media screen and (max-width: 538px) {
+      margin-top: 0;
+    }
   }
 
   .front-person-img > img {
@@ -2970,6 +2973,9 @@ body .theme-btn {
     -o-transform: rotate(-45deg) translateY(45px);
     transform: rotate(-45deg) translateY(100px);
     position: absolute;
+    @media screen and (max-width: 538px) {
+      bottom: 16px !important;
+    }
     bottom: 0;
     left: -40px;
   }
